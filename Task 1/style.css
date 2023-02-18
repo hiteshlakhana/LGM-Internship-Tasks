@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+nav{
+    background-color: #fdf475;
+    padding: 1.75%;
+}
+
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    background-color: whitesmoke;
+    overflow: hidden;   
+    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.app{
+    background-color: #ddfa5d;
+    width: 350px;
+    height: 500px;
+    margin-top: 1%;
+    margin-left: 38%;
+    border: 5px solid #9eb3f7;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+
+
+#addNew{
+    width: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 36%;
+    margin-top: 10%;
+}
+
+#addNew span{
+    font-size: 20px;
+}
+
+.new{
+    background-color: #75fdf6;
+    width: 9rem;
+    margin-left: 90%;border-radius: 25px;
+    margin-top: -5%;
+}
+
+.new span{
+    margin-left: 15%;
+}
+
+.fa-plus{
+    margin-left: -20%;
+    padding: 3px;
+    border-radius: 3px;
+    font-size: 48px;
+}
+#tasks div {
+    border: 3px solid #ddfa5d;
+    background-color: #ddfa5d;
+    border-radius: 6px;
+    padding: 5px;
+    display: grid;
+    gap: 4px;
+}
+  
+#tasks div .options {
+    justify-self: center;
+    display: flex;
+    gap: 20px;
+}
+  
+#tasks div .options i {
+    cursor: pointer;
+}
+  
+#msg {
+    color: red;
+}
